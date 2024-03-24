@@ -16,7 +16,6 @@
 					alt="careeronestop logo"
 				/></a
 			>
-			<div id="divReEmpCareerMatchesPortrait"></div>
 			<h1 class="text-xl font-white">Welcome to the career explorer page...</h1>
 		</div>
 		<slot />
