@@ -3,6 +3,7 @@
 	import '../app.css';
 
 	afterNavigate(() => {
+		// @ts-ignore
 		window.HSStaticMethods.autoInit();
 	});
 </script>
