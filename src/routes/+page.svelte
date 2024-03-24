@@ -1,13 +1,8 @@
 <script lang="ts">
-    
+	import SearchOptions from '$lib/SearchOptions.svelte';
+    import SearchTable from '$lib/SearchTable.svelte';
 </script>
 
-<h1 class="underline">
-    Hello world!
-</h1>
+<SearchOptions />
 
-
-<!-- 
-<button onclick={}>
-
-</button> -->
+<SearchTable />
