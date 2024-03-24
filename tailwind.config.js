@@ -1,11 +1,11 @@
 import plugin from 'preline/plugin';
 
 export default {
-    content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/preline/preline.js'],
+	content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/preline/preline.js'],
 
-    theme: {
-        extend: {}
-    },
+	theme: {
+		extend: {}
+	},
 
-    plugins: [plugin]
+	plugins: [plugin]
 };

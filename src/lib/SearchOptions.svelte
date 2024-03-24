@@ -2,7 +2,7 @@
 	import axios from 'axios';
 	import SearchIcon from './SearchIcon.svelte';
 	import { createCareerData } from '$lib/careerSearchData.svelte.js';
-	
+
 	let keyword: string = $state('Computer Science');
 	let location: string = $state('Boston');
 	let radius: number = $state(25);

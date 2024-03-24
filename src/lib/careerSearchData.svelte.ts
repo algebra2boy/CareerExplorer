@@ -1,11 +1,11 @@
 interface CareerData {
-    JvID: string
-    JobTitle: string;
-    Company: string;
-    AccquisitionDate: string;
-    URL: string;
-    Location: string;
-    FC: boolean;
+	JvID: string;
+	JobTitle: string;
+	Company: string;
+	AccquisitionDate: string;
+	URL: string;
+	Location: string;
+	FC: boolean;
 }
 
 // I feel like this should be inside the createCareerData function
@@ -13,8 +13,12 @@ interface CareerData {
 let careerData: CareerData[] = $state([]);
 
 export function createCareerData() {
-    return {
-        get careerData() { return careerData },
-        set(data: CareerData[]) { careerData = data }
-    }
+	return {
+		get careerData() {
+			return careerData;
+		},
+		set(data: CareerData[]) {
+			careerData = data;
+		}
+	};
 }
